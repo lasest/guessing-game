@@ -29,4 +29,3 @@ do
 done
 
 echo "Congrats! You've guessed it right!"
-31 guessinggame.sh
