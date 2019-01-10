@@ -17,7 +17,7 @@ function checkGuess {
   fi
 }
 
-filesN=$(ls -l | grep -e ^[-] | wc -l)
+filesN=$(ls -l | grep -E ^[-] | wc -l)
 guess=0
 
 echo -n "Guess how many files are in the current directory: "
